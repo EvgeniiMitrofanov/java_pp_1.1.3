@@ -27,6 +27,5 @@ public class Main {
         System.out.println("Удаление таблицы User(ов) – не должно приводить к исключению, если таблицы не существует");
         userService.dropUsersTable();
 
-
     }
 }
